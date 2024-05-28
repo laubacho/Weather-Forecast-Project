@@ -16,7 +16,7 @@ root.geometry("450x700")
 root['background'] = "white"
 
 # Image
-new = ImageTk.PhotoImage(Image.open('logo-300x117.png'))
+new = ImageTk.PhotoImage(Image.open('logo.png'))
 panel = Label(root, image=new)
 panel.place(x=0, y=520)
 
